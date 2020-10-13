@@ -1,0 +1,24 @@
+{
+    "btnLeft": [
+        {"classWidth": "btn__20w", "value": "7", "type": "number"},
+        {"classWidth": "btn__20w", "value": "8", "type": "number"},
+        {"classWidth": "btn__20w", "value": "9", "type": "number"},
+        {"classWidth": "btn__20w", "value": "/", "type": "division"},
+        {"classWidth": "btn__20w", "value": "4", "type": "number"},
+        {"classWidth": "btn__20w", "value": "5", "type": "number"},
+        {"classWidth": "btn__20w", "value": "6", "type": "number"},
+        {"classWidth": "btn__20w", "value": "*", "type": "multiplication"},
+        {"classWidth": "btn__20w", "value": "1", "type": "number"},
+        {"classWidth": "btn__20w", "value": "2", "type": "number"},
+        {"classWidth": "btn__20w", "value": "3", "type": "number"},
+        {"classWidth": "btn__20w", "value": "-", "type": "subtraction"},
+        {"classWidth": "btn__40w", "value": "0", "type": "number"},
+        {"classWidth": "btn__20w", "value": ".", "type": "number"},
+        {"classWidth": "btn__20w", "value": "+", "type": "summation"}
+    ],
+    "btnRight": [
+        {"classHeight": "btn__50h", "value": "CE", "type": "clearEle"},
+        {"classHeight": "btn__50h", "value": "C", "type": "clearAll"},
+        {"classHeight": "btn__100h", "value": "=", "type": "equalSign"}
+    ]
+}
