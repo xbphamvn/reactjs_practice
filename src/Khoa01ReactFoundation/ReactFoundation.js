@@ -179,16 +179,18 @@ export default class ReactFoundation extends Component {
         let newResObj = {};
         newResObj = { input: 'Waiting...', result: '0' };
         this.setState({ resObj: newResObj }, () => {
-            this.numKey.commaCount = 0;
-            this.numKey.zeroCount = 0;
-            this.numKey.noneZeroCount = 0;
-            this.numKey.countFunction = 0;
-            this.numKey.clickedKeysArr = [];
-            this.numKey.argument = 0;
-            this.numKey.mathKeyStore = {};
-            this.numKey.totalRes = 0;
-            this.numKey.storageArr = [];
-            this.numKey.showingTopLine = "Inputing...";
+            this.numKey = {
+                commaCount: 0,
+                zeroCount: 0,
+                noneZeroCount: 0,
+                countFunction: 0,
+                clickedKeysArr: [],
+                argument: 0,
+                mathKeyStore: {},
+                totalRes: 0,
+                storageArr: [],
+                showingTopLine: "Inputing..."
+            }
         });
     };
 
@@ -216,22 +218,24 @@ export default class ReactFoundation extends Component {
                 }
                 break;
             default:
-                return alert('Lỗi phần tính toán! Xem lại!'); //Fordeveloper only!
+                return alert('Vui lòng chọn phương thức tính toán!');
         }
         this.numKey.showingTopLine = 'Final Result';
         let newResObj = {};
         newResObj = { input: this.numKey.showingTopLine, result: this.numKey.totalRes };
         this.setState({ resObj: newResObj }, () => {
-            this.numKey.commaCount = 0;
-            this.numKey.zeroCount = 0;
-            this.numKey.noneZeroCount = 0;
-            this.numKey.countFunction = 0;
-            this.numKey.clickedKeysArr = [];
-            this.numKey.argument = 0;
-            this.numKey.mathKeyStore = {};
-            this.numKey.totalRes = 0;
-            this.numKey.storageArr = [];
-            this.numKey.showingTopLine = "Inputing...";
+            this.numKey = {
+                commaCount: 0,
+                zeroCount: 0,
+                noneZeroCount: 0,
+                countFunction: 0,
+                clickedKeysArr: [],
+                argument: 0,
+                mathKeyStore: {},
+                totalRes: 0,
+                storageArr: [],
+                showingTopLine: "Inputing..."
+            }
         });
     };
 
