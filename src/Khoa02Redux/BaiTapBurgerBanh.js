@@ -5,10 +5,10 @@ class BaiTapBurgerBanh extends Component {
 
     renderFillingFoodsImg = (foodsArr) => {
         let burgerFinalJsx = [];
-        burgerFinalJsx = foodsArr.map((food, index) => {
+        burgerFinalJsx = foodsArr.map((food) => {
             let foodJsx = [];
             for (let i = 0; i < food.amount; i++) {
-                foodJsx.push((<div key={index} className={food.name.toLowerCase()}></div>));
+                foodJsx.push((<div key={i} className={food.name.toLowerCase()}></div>));
             }
             return foodJsx;
         });
