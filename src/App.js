@@ -1,12 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-import ReactFoundation from './Khoa01ReactFoundation/ReactFoundation';
+// import ReactFoundation from './Khoa01ReactFoundation/ReactFoundation';
+import BaiTapBurgerRedux from './Khoa02Redux/BaiTapBurgerRedux';
 
 function App() {
   return (
     <div className="App">
-      <ReactFoundation />
+      {/* <ReactFoundation /> */}
+      <BaiTapBurgerRedux />
     </div>
   );
 }
