@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
 import BaiTapBurgerReducer from './BaiTapBurgerReducer';
+import UserManagerReducer from './UserManagerReducer';
 
 const rootReducer = combineReducers({
-    BaiTapBurgerReducer
+    BaiTapBurgerReducer,
+    UserManagerReducer
 });
 
 export default rootReducer;

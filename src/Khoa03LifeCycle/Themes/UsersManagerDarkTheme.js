@@ -1,0 +1,21 @@
+export const UserManagerDarkTheme = {
+    txtColor: '#ffeb3b',
+    errorColor: '#fdf18c',
+    labelSmall: '#ffeb3b',
+    headingBgColor: '#0a2c4e',
+    bgColor: '#343a40',
+    borderColor: '#9E9E9E',
+    hoverSelectDefault: '#343a40',
+    hoverBgSelectDefault: '#6c757d',
+    focusBgSelectDefault: '#6c757d',
+    btnTxtColor: '#0a2c4e',
+    btnTxtHoverColor: '#011121',
+    btnRegisterBg: '#f8f9fa',
+    btnRegisterBgHover: '#e2e6ea',
+    btnRegisterBgBorder: '#dae0e5',
+    btnUpdateBg: '#ffc107',
+    btnUpdateBgHover: '#e0a800',
+    btnUpdateBgBorder: '#d39e00',
+    btnDeleteTxt: '#010e6d',
+    btnDelete: '#dc3545'
+}
