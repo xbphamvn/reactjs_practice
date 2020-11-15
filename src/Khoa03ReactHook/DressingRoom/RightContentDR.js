@@ -38,7 +38,7 @@ export default function RightContentDR(props) {
 
     const topClothAnim = useSpring({
         from: {
-            transform: 'translateX(-120%) scale(0.7) rotate(90deg)',
+            transform: 'translateX(-150%) scale(0) rotate(90deg)',
             opacity: 0.5
         },
         background: `url(${topclothes})`,
@@ -50,7 +50,7 @@ export default function RightContentDR(props) {
 
     const botClothAnim = useSpring({
         from: {
-            transform: 'translateX(-120%) scale(0.7) rotate(-90deg)',
+            transform: 'translateX(-150%) scale(0) rotate(-90deg)',
             opacity: 0.5
         },
         background: `url(${botclothes})`,
